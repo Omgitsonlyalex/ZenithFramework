@@ -1,0 +1,29 @@
+/* -------------------------------------------
+        Colour variables
+ -------------------------------------------- */
+/* -------------------------------------------
+        Font variables
+ -------------------------------------------- */
+/* Import in our variables! */
+/* -------------------------------------------
+        Style our tables
+ -------------------------------------------- */
+/* line 9, ../sass/email.scss */
+table.full-container {
+  background-color: #efefef;
+}
+/* line 13, ../sass/email.scss */
+table.content-container {
+  width: 640px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 13, ../sass/email.scss */
+  table.content-container {
+    width: 100% !important;
+    padding: 0 20px 0 20px;
+  }
+}
+
+/* -------------------------------------------
+        Media Queries
+-------------------------------------------- */

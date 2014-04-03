@@ -1,0 +1,28 @@
+@import "variables"; /* Import in our variables! */
+
+
+/* -------------------------------------------
+        Style our tables
+ -------------------------------------------- */
+        
+table {
+  &.full-container {
+    background-color: $color-light-grey;
+  }
+
+  &.content-container {
+    width:640px;
+    @media only screen and (max-width: 600px) {
+      width:100% !important;
+      padding: 0 20px 0 20px;
+    }
+  }
+}
+
+/* -------------------------------------------
+        Media Queries
+-------------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+  //queries
+}
