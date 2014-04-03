@@ -1,22 +1,45 @@
 /* -------------------------------------------
 Colour variables
- -------------------------------------------- */
+-------------------------------------------- */
 
 $color-light-grey: #EFEFEF;
 $color-blue: #2662e8;
 $color-red: #d71616;
 
 /* -------------------------------------------
+Background of whole email colour?
+-------------------------------------------- */
+
+$background-color: #ffffff;
+
+/* -------------------------------------------
 Font variables
- -------------------------------------------- */
+-------------------------------------------- */
 
- $font-headings: Georgia;
- $font-paragraph: Arial, sans-serif;
+$font-heading: Arial;
+$font-paragraph: Arial, sans-serif;
+$heading-color: #000001;
+$paragraph-color: #666666;
+$paragraph-size: 16px;
+$heading-size: 24px;
 
- /* -------------------------------------------
- Width Variables
- -------------------------------------------- */
+/* -------------------------------------------
+Link variables
+-------------------------------------------- */
 
- $email-width: 640px; // Suggested 640px is max
- $spacer: 20px;
- $half-width-column: ($email-width - $spacer)/2;
+
+
+/* -------------------------------------------
+Width Variables
+-------------------------------------------- */
+
+$email-width: 640px; // Suggested 640px is max
+$spacer: 20px;
+
+/* -------------------------------------------
+Do you want to add padding for container on
+responsive? Write either "yes" or "no"
+-------------------------------------------- */
+
+$mobile-padding: yes;
+

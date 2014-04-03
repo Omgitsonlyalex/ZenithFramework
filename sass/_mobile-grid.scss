@@ -1,0 +1,48 @@
+
+/* -------------------------------------------
+Grid stuff, don't touch!
+-------------------------------------------- */
+$half-width-column: ($email-width - $spacer)/2;
+$third-width-column: ($email-width - $spacer * 2)/3;
+
+@media only screen and (max-width: 600px) {
+  .full-container {
+    @if $mobile-padding == yes {
+    padding:10px;
+    } @else {
+
+    }
+  }
+}
+
+.full-width {
+  width: $email-width;
+  @media only screen and (max-width: 600px) {
+    width:100% !important;
+    height:auto;
+  }
+}
+
+.width-half {
+    width: $half-width-column;
+    @media only screen and (max-width: 600px) {
+      width:100% !important;
+      height:auto;
+    }
+}
+
+.width-third {
+    width: $third-width-column;
+    @media only screen and (max-width: 600px) {
+      width:100% !important;
+      height:auto;
+    }
+}
+
+.spacer {
+    width: $spacer;
+    @media only screen and (max-width: 600px) {
+      width:100% !important;
+      height:auto;
+    }
+}

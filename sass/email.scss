@@ -1,57 +1,36 @@
 @import "variables"; /* Import in our variables! */
+@import "mobile-grid"; /* Our mobile grid */
+@import "client-fixes"; /* Our client fixes for hotmail, etc */
+@import "Typography"; /* Control all typography */
 
 
 /* -------------------------------------------
         Style our stuff
  -------------------------------------------- */
 body {
-  background-color: $color-light-grey;
+  background-color: $background-color;
   margin:0;
   padding:0;
 }
 
+/* -------------------------------------------
+        Colour stuff
+-------------------------------------------- */
 
-.full-container {
-  background-color: $color-light-grey;
-}
-
-.content-container {
-  background-color: $color-blue;
-  width: $email-width;
-  @media only screen and (max-width: 600px) {
-    width:100% !important;
-    height:auto;
+.color-background {
+  &.red {
+    background-color: $color-red;
   }
 }
 
-.content {
-  width:100%;
-}
 
-.full-width {
-  width: $email-width;
-  @media only screen and (max-width: 600px) {
-    width:100% !important;
-    height:auto;
-  }
-}
+/* -------------------------------------------
+Link buttons
+-------------------------------------------- */
 
-.width-half {
-    width: $half-width-column;
-    @media only screen and (max-width: 600px) {
-      width:100% !important;
-      height:auto;
-    }
+.btn-large {
+  color:#FFF;
 }
-
-.spacer {
-    width: $spacer;
-    @media only screen and (max-width: 600px) {
-      width:100% !important;
-      height:auto;
-    }
-}
-
 
 /* -------------------------------------------
         Media Queries
@@ -68,7 +47,6 @@ body {
     float: none !important;
     width: 100% !important;
     height:auto;
-  }     
-        
+  }             
       
 }
