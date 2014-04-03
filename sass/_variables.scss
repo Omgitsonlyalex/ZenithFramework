@@ -1,5 +1,5 @@
 /* -------------------------------------------
-        Colour variables
+Colour variables
  -------------------------------------------- */
 
 $color-light-grey: #EFEFEF;
@@ -7,8 +7,16 @@ $color-blue: #2662e8;
 $color-red: #d71616;
 
 /* -------------------------------------------
-        Font variables
+Font variables
  -------------------------------------------- */
 
  $font-headings: Georgia;
  $font-paragraph: Arial, sans-serif;
+
+ /* -------------------------------------------
+ Width Variables
+ -------------------------------------------- */
+
+ $email-width: 640px; // Suggested 640px is max
+ $spacer: 20px;
+ $half-width-column: ($email-width - $spacer)/2;

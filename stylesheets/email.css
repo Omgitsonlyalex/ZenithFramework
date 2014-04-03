@@ -1,29 +1,100 @@
 /* -------------------------------------------
-        Colour variables
+Colour variables
  -------------------------------------------- */
 /* -------------------------------------------
-        Font variables
+Font variables
  -------------------------------------------- */
+/* -------------------------------------------
+Width Variables
+-------------------------------------------- */
 /* Import in our variables! */
 /* -------------------------------------------
-        Style our tables
+        Style our stuff
  -------------------------------------------- */
-/* line 9, ../sass/email.scss */
-table.full-container {
+/* line 7, ../sass/email.scss */
+body {
+  background-color: #efefef;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../sass/email.scss */
+.full-container {
   background-color: #efefef;
 }
-/* line 13, ../sass/email.scss */
-table.content-container {
+
+/* line 18, ../sass/email.scss */
+.content-container {
+  background-color: #2662e8;
   width: 640px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 13, ../sass/email.scss */
-  table.content-container {
+  /* line 18, ../sass/email.scss */
+  .content-container {
     width: 100% !important;
-    padding: 0 20px 0 20px;
+    height: auto;
+  }
+}
+
+/* line 27, ../sass/email.scss */
+.content {
+  width: 100%;
+}
+
+/* line 31, ../sass/email.scss */
+.full-width {
+  width: 640px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 31, ../sass/email.scss */
+  .full-width {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+/* line 39, ../sass/email.scss */
+.width-half {
+  width: 310px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 39, ../sass/email.scss */
+  .width-half {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+/* line 47, ../sass/email.scss */
+.spacer {
+  width: 20px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 47, ../sass/email.scss */
+  .spacer {
+    width: 100% !important;
+    height: auto;
   }
 }
 
 /* -------------------------------------------
         Media Queries
 -------------------------------------------- */
+@media only screen and (max-width: 600px) {
+  /* line 61, ../sass/email.scss */
+  *[class="mobile-hide"] {
+    display: none !important;
+  }
+
+  /* line 64, ../sass/email.scss */
+  *[class="mobile-stack"] {
+    display: block !important;
+  }
+
+  /* line 67, ../sass/email.scss */
+  *[class="mob-column"] {
+    float: none !important;
+    width: 100% !important;
+    height: auto;
+  }
+}
