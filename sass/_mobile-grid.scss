@@ -4,6 +4,8 @@ Grid stuff, don't touch!
 -------------------------------------------- */
 $half-width-column: ($email-width - $spacer)/2;
 $third-width-column: ($email-width - $spacer * 2)/3;
+$quarter-width-column: ($email-width - $spacer * 3)/4; 
+
 
 @media only screen and (max-width: 600px) {
   .full-container {
@@ -33,6 +35,22 @@ $third-width-column: ($email-width - $spacer * 2)/3;
 
 .width-third {
     width: $third-width-column;
+    @media only screen and (max-width: 600px) {
+      width:100% !important;
+      height:auto;
+    }
+}
+
+.width-two-thirds {
+    width: $third-width-column * 2;
+    @media only screen and (max-width: 600px) {
+      width:100% !important;
+      height:auto;
+    }
+}
+
+.width-quarter {
+    width: $quarter-width-column;
     @media only screen and (max-width: 600px) {
       width:100% !important;
       height:auto;
