@@ -1,16 +1,16 @@
 # Zenith
 
-## What is Zenith?
+### What is Zenith?
 
 Zenith is an email framework made easy using SASS.
 
-## Usage
+### Usage
 
 To get started, you'll need SASS and Compass.
 
 Install compass:
 
-```php
+```javascript
 $ gem update --system
 $ gem install compass
 ```
