@@ -20,11 +20,13 @@ If you need more information about compass installation, please refer to its [do
 
 #### Inlining
 
-To inline, I'm using [premailer](https://github.com/premailer/premailer/)
+To inline, I'm using [premailer](https://github.com/premailer/premailer/).
 
 Once you have it installed, you just need to run the .rb ruby file I've set up by putting the following into your terminal/command line application
 ```
 $ ruby config.rb
 ```
+
+This takes your ```email.html``` from your templates folder and saves it into ```email.html``` in your inlined folder. 
 
 
