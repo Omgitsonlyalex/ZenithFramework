@@ -9,7 +9,6 @@ Zenith is an email framework made easy using SASS.
 To get started, you'll need SASS and Compass.
 
 Install compass:
-
 ```javascript
 $ gem update --system
 $ gem install compass
