@@ -4,6 +4,14 @@
 
 Zenith is an email framework made easy using SASS.
 
+#### Features
+
+* Mobile responsive grid that automatically calculates widths from the overall width of the email
+* Easily control layout, typography, colour schemes, etc via a variables SASS file
+* Pre-set button styles that you can easily customise
+* Logical SASS statements to make life easier
+* Comes with premailer set up to easily inline code
+
 
 ### Usage
 
