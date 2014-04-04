@@ -1,5 +1,8 @@
 /* -------------------------------------------
 Colour variables
+
+Define some set colours here that you can
+call in anywhere. Add as many as you like.
 -------------------------------------------- */
 /* -------------------------------------------
 Background of whole email colour?
@@ -8,7 +11,7 @@ Background of whole email colour?
 Font variables
 -------------------------------------------- */
 /* -------------------------------------------
-Link variables
+Button variables
 -------------------------------------------- */
 /* -------------------------------------------
 Width Variables
@@ -29,7 +32,7 @@ Grid stuff, don't touch!
 }
 /* line 20, ../sass/_mobile-grid.scss */
 .full-width {
-  width: 800px;
+  width: 100%;
 }
 @media only screen and (max-width: 600px) {
   /* line 20, ../sass/_mobile-grid.scss */
@@ -40,62 +43,73 @@ Grid stuff, don't touch!
 }
 
 /* line 28, ../sass/_mobile-grid.scss */
-.width-half {
-  width: 390px;
+.full-width-container {
+  width: 640px;
 }
 @media only screen and (max-width: 600px) {
   /* line 28, ../sass/_mobile-grid.scss */
-  .width-half {
+  .full-width-container {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 36, ../sass/_mobile-grid.scss */
-.width-third {
-  width: 253.33333px;
+.width-half {
+  width: 290px;
 }
 @media only screen and (max-width: 600px) {
   /* line 36, ../sass/_mobile-grid.scss */
-  .width-third {
+  .width-half {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 44, ../sass/_mobile-grid.scss */
-.width-two-thirds {
-  width: 506.66667px;
+.width-third {
+  width: 186.66667px;
 }
 @media only screen and (max-width: 600px) {
   /* line 44, ../sass/_mobile-grid.scss */
-  .width-two-thirds {
+  .width-third {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 52, ../sass/_mobile-grid.scss */
-.width-quarter {
-  width: 185px;
+.width-two-thirds {
+  width: 373.33333px;
 }
 @media only screen and (max-width: 600px) {
   /* line 52, ../sass/_mobile-grid.scss */
-  .width-quarter {
+  .width-two-thirds {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 60, ../sass/_mobile-grid.scss */
+.width-quarter {
+  width: 135px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 60, ../sass/_mobile-grid.scss */
+  .width-quarter {
+    width: 100% !important;
+    height: auto;
+  }
+}
+
+/* line 68, ../sass/_mobile-grid.scss */
 .spacer {
   width: 20px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 60, ../sass/_mobile-grid.scss */
+  /* line 68, ../sass/_mobile-grid.scss */
   .spacer {
-    width: 100% !important;
-    height: auto;
+    display: none;
   }
 }
 
@@ -117,7 +131,7 @@ h1 {
 
 /* Control all typography */
 /* -------------------------------------------
-        Style our stuff
+        Style our body
  -------------------------------------------- */
 /* line 10, ../sass/email.scss */
 body {
@@ -131,32 +145,46 @@ body {
 -------------------------------------------- */
 /* line 21, ../sass/email.scss */
 .color-background.red {
-  background-color: #d71616;
+  background-color: white;
 }
 
 /* -------------------------------------------
 Link buttons
 -------------------------------------------- */
-/* line 31, ../sass/email.scss */
-.btn-large {
-  color: #FFF;
+@media only screen and (max-width: 600px) {
+  /* line 31, ../sass/email.scss */
+  .btn {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+/* line 36, ../sass/email.scss */
+.btn.style-1 {
+  background-color: #333333;
+  border: 2px solid #cc0000;
+}
+/* line 39, ../sass/email.scss */
+.btn.style-1 a {
+  color: #cc0000;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
 }
 
 /* -------------------------------------------
         Media Queries
 -------------------------------------------- */
 @media only screen and (max-width: 600px) {
-  /* line 40, ../sass/email.scss */
+  /* line 52, ../sass/email.scss */
   *[class="mobile-hide"] {
     display: none !important;
   }
 
-  /* line 43, ../sass/email.scss */
+  /* line 55, ../sass/email.scss */
   *[class="mobile-stack"] {
     display: block !important;
   }
 
-  /* line 46, ../sass/email.scss */
+  /* line 58, ../sass/email.scss */
   *[class="mob-column"] {
     float: none !important;
     width: 100% !important;

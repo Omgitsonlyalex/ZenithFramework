@@ -1,10 +1,13 @@
 /* -------------------------------------------
 Colour variables
+
+Define some set colours here that you can
+call in anywhere. Add as many as you like.
 -------------------------------------------- */
 
 $color-light-grey: #EFEFEF;
 $color-blue: #2662e8;
-$color-red: #d71616;
+$color-red: #fff;
 
 /* -------------------------------------------
 Background of whole email colour?
@@ -16,25 +19,30 @@ $background-color: #ffffff;
 Font variables
 -------------------------------------------- */
 
-$font-heading: Arial;
-$font-paragraph: Arial, sans-serif;
-$heading-color: #000001;
-$paragraph-color: #666666;
-$paragraph-size: 16px;
-$heading-size: 24px;
+$font-heading: Arial; // Heading font family
+$font-paragraph: Arial, sans-serif; // Paragraph font family
+$heading-color: #000001; // Font colour of your heading
+$paragraph-color: #666666; // Font colour of your paragraph
+$paragraph-size: 16px; // Font size of your paragraph text
+$heading-size: 24px; // Font size of your heading
 
 /* -------------------------------------------
-Link variables
+Button variables
 -------------------------------------------- */
 
+//Button 1 - Feel free to duplicate/add as many as you like.
 
+$btn-1-bg-color: #333; // Background colour of the button
+$btn-1-link-color: #CC0000; // Text link colour of the link
+$btn-1-border-color: #CC0000; // Border colour of the button
+$btn-1-border-weight: 2px; // Border weight
 
 /* -------------------------------------------
 Width Variables
 -------------------------------------------- */
 
-$email-width: 800px; // Suggested 640px is max
-$spacer: 20px;
+$email-width: 640px; // Suggested 640px is max
+$spacer: 20px; // This is the spacer between columns and also on the left/right
 
 /* -------------------------------------------
 Do you want to add padding for container on
