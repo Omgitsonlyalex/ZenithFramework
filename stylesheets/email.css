@@ -114,6 +114,41 @@ Grid stuff, don't touch!
 }
 
 /* Our mobile grid */
+/* line 1, ../sass/_client-fixes.scss */
+.ExternalClass {
+  line-height: 100%;
+}
+/* line 3, ../sass/_client-fixes.scss */
+.ExternalClass p {
+  line-height: 100%;
+}
+/* line 6, ../sass/_client-fixes.scss */
+.ExternalClass span {
+  line-height: 100%;
+}
+/* line 9, ../sass/_client-fixes.scss */
+.ExternalClass font {
+  line-height: 100%;
+}
+/* line 12, ../sass/_client-fixes.scss */
+.ExternalClass td {
+  line-height: 100%;
+}
+/* line 15, ../sass/_client-fixes.scss */
+.ExternalClass div {
+  line-height: 100%;
+}
+
+/* line 19, ../sass/_client-fixes.scss */
+table td {
+  border-collapse: collapse;
+}
+
+/* line 23, ../sass/_client-fixes.scss */
+.yshortcuts a {
+  border-bottom: none !important;
+}
+
 /* Our client fixes for hotmail, etc */
 /* line 1, ../sass/_Typography.scss */
 p {
@@ -160,7 +195,7 @@ Link buttons
 }
 /* line 36, ../sass/email.scss */
 .btn.style-1 {
-  background-color: #333333;
+  background-color: white;
   border: 2px solid #cc0000;
 }
 /* line 39, ../sass/email.scss */
