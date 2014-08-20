@@ -1,22 +1,26 @@
 # Zenith
 
+### I've written a guide on using Sass in email!
+
+Find out how to start using this template by going to my [Litmus Community guide](https://litmus.com/community/learning/23-getting-started-with-sass-in-email).
+
 ### What is Zenith?
 
-Zenith is an email framework made easy using SASS.
+Zenith is an email framework made easy using Sass.
 
 #### Features
 
 * Mobile responsive grid that automatically calculates widths from the overall width of the email
-* Easily control layout, typography, colour schemes, etc via a variables SASS file
+* Easily control layout, typography, colour schemes, etc via a variables Sass file
 * Pre-set button styles that you can easily customise
-* Logical SASS statements to make life easier
+* Logical Sass statements to make life easier
 * Comes with premailer set up to easily inline code
 
 
 ### Usage
 
 #### Compass
-To get started, you'll need SASS and Compass.
+To get started, you'll need Sass and Compass.
 
 Install compass:
 ```
