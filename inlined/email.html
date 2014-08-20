@@ -36,6 +36,12 @@
   *[class="spacer"] {
     display: none;
   }
+  *[class="mobile-spacer"] {
+    height: 20px;
+  }
+  *[class="container-mob"] {
+    width: 100% !important; height: auto; margin-bottom: 20px;
+  }
   *[class="mobile-hide"] {
     display: none !important;
   }
@@ -64,12 +70,12 @@ background-color: white; margin: 0; padding: 0;
 			<!-- 640 pixel container for our content -->
 			<table width="640" cellpadding="0" cellspacing="0" border="0" class="full-width-container" style="width: 640px">
 				<tr>
-					<td class="mobile-hide spacer" style="border-collapse: collapse"></td>
+					<td class="spacer" style="border-collapse: collapse; width: 20px"></td>
 					<td style="border-collapse: collapse">
 
 
 						<!-- Content -->						
-						<table border="0" cellspacing="0" cellpadding="20" class="full-width" bgcolor="#ff0000" style="width: 100%">
+						<table border="0" cellspacing="0" cellpadding="20" class="container-mob" bgcolor="#ff0000" style="width: 100%">
 			                <tr>
 			                    <td align="center" valign="top" style="border-collapse: collapse">
 			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack">
@@ -83,16 +89,16 @@ background-color: white; margin: 0; padding: 0;
 
 			            <!-- Two column -->
 
-			            <table border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 100%">
+			            <table border="0" cellspacing="0" cellpadding="0" class="container-mob" style="width: 100%">
 			                <tr>
 			                    <td align="center" valign="top" style="border-collapse: collapse">
 			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack">
 			                            <tr>
 			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-half" bgcolor="#00ff00">
+			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="width-half" bgcolor="#00ff00" style="width: 290px">
 			                                        <tr>
 			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                               <span class="heading" style="color: blue; font-family: Arial; font-size: 24px">Yo!</span>
+			                                               <span class="heading" style="color: blue; font-family: Georgia; font-size: 24px">Yo!</span>
 
 			                                               <br /><br />
 
@@ -103,12 +109,20 @@ Prior to activate it, you need first to install python, and create a virtualenv 
 			                                        </tr>
 			                                    </table>
 			                                </td>
-			                                <td class="spacer" style="border-collapse: collapse; width: 20px"></td>
 			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-half">
+			            						<table align="left" border="0" cellspacing="0" class="mobile-spacer" style="width: 20px">
+			            							<tr>
+			            								<td align="center" style="border-collapse: collapse">
+			            									 
+			            								</td>
+			            							</tr>
+			            						</table>
+			            					</td>
+			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
+			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="width-half" style="width: 290px">
 			                                        <tr>
 			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                            	<span class="heading" style="color: blue; font-family: Arial; font-size: 24px">Yo!</span>
+			                                            	<span class="heading" style="color: blue; font-family: Georgia; font-size: 24px">Yo!</span>
 
 			                                            	<br /><br />
 
@@ -125,10 +139,72 @@ Prior to activate it, you need first to install python, and create a virtualenv 
 			                </tr>
 			            </table>
 
+			            <table border="0" cellspacing="0" cellpadding="0" class="container-mob" style="width: 100%">
+			            	<tr>
+			            		<td align="center" valign="top" style="border-collapse: collapse">
+			            			<table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack">
+			            				<tr>
+			            					<td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
+			            						<table align="left" border="0" cellspacing="0" class="width-third" style="width: 186.66667px">
+			            							<tr>
+			            								<td align="center" style="border-collapse: collapse">
+			            									<span class="paragraph" style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">
+			            										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, voluptates dolorem. Veniam aperiam doloribus, repudiandae reiciendis labore, harum iusto voluptatem quasi, distinctio earum praesentium. Sint dolorem exercitationem quasi aliquam ab!
+			            									</span>
+			            								</td>
+			            							</tr>
+			            						</table>
+			            					</td>
+			            					<td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
+			            						<table align="left" border="0" cellspacing="0" class="mobile-spacer" style="width: 20px">
+			            							<tr>
+			            								<td align="center" style="border-collapse: collapse">
+			            									 
+			            								</td>
+			            							</tr>
+			            						</table>
+			            					</td>
+			            					<td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
+			            						<table align="left" border="0" cellspacing="0" class="width-third" style="width: 186.66667px">
+			            							<tr>
+			            								<td align="center" style="border-collapse: collapse">
+			            									<span class="paragraph" style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">
+			            										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, voluptates dolorem. Veniam aperiam doloribus, repudiandae reiciendis labore, harum iusto voluptatem quasi, distinctio earum praesentium. Sint dolorem exercitationem quasi aliquam ab!
+			            									</span>
+			            								</td>
+			            							</tr>
+			            						</table>
+			            					</td>
+			            					<td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
+			            						<table align="left" border="0" cellspacing="0" class="mobile-spacer" style="width: 20px">
+			            							<tr>
+			            								<td align="center" style="border-collapse: collapse">
+			            									 
+			            								</td>
+			            							</tr>
+			            						</table>
+			            					</td>
+											<td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
+			            						<table align="left" border="0" cellspacing="0" class="width-third" style="width: 186.66667px">
+			            							<tr>
+			            								<td align="center" style="border-collapse: collapse">
+			            									<span class="paragraph" style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">
+			            										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, voluptates dolorem. Veniam aperiam doloribus, repudiandae reiciendis labore, harum iusto voluptatem quasi, distinctio earum praesentium. Sint dolorem exercitationem quasi aliquam ab!
+			            									</span>
+			            								</td>
+			            							</tr>
+			            						</table>
+			            					</td>
+			            				</tr>
+			            			</table>
+			            		</td>
+			            	</tr>
+			            </table>
+
 
 
 					</td>
-					<td class="mobile-hide spacer" style="border-collapse: collapse"></td>
+					<td class="spacer" style="border-collapse: collapse; width: 20px"></td>
 				</tr>
 			</table>
 

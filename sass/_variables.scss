@@ -19,10 +19,12 @@ $background-color: #ffffff;
 Font variables
 -------------------------------------------- */
 
-$font-heading: Arial; // Heading font family
+$font-heading: Georgia; // Heading font family
 $font-paragraph: Arial, sans-serif; // Paragraph font family
+
 $heading-color: #0000ff; // Font colour of your heading
 $paragraph-color: #666666; // Font colour of your paragraph
+
 $paragraph-size: 16px; // Font size of your paragraph text
 $heading-size: 24px; // Font size of your heading
 
@@ -50,4 +52,6 @@ responsive? Write either "yes" or "no"
 -------------------------------------------- */
 
 $mobile-padding: yes;
+
+$mobile-bottom-spacing: 20px;
 

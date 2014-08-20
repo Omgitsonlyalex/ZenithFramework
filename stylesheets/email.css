@@ -113,6 +113,30 @@ Grid stuff, don't touch!
   }
 }
 
+/* line 74, ../sass/_mobile-grid.scss */
+*[class="mobile-spacer"] {
+  width: 20px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 74, ../sass/_mobile-grid.scss */
+  *[class="mobile-spacer"] {
+    height: 20px;
+  }
+}
+
+/* line 80, ../sass/_mobile-grid.scss */
+*[class="container-mob"] {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  /* line 80, ../sass/_mobile-grid.scss */
+  *[class="container-mob"] {
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
 /* Our mobile grid */
 /* line 1, ../sass/_client-fixes.scss */
 .ExternalClass {
@@ -160,7 +184,7 @@ span[class="paragraph"] {
 /* line 7, ../sass/_Typography.scss */
 span[class="heading"] {
   font-size: 24px;
-  font-family: Arial;
+  font-family: Georgia;
   color: blue;
 }
 
@@ -168,7 +192,7 @@ span[class="heading"] {
 /* -------------------------------------------
         Style our body
  -------------------------------------------- */
-/* line 10, ../sass/email.scss */
+/* line 11, ../sass/email.scss */
 body {
   background-color: white;
   margin: 0;
@@ -178,7 +202,7 @@ body {
 /* -------------------------------------------
         Colour stuff
 -------------------------------------------- */
-/* line 21, ../sass/email.scss */
+/* line 22, ../sass/email.scss */
 .color-background.red {
   background-color: white;
 }
@@ -187,17 +211,17 @@ body {
         Media Queries
 -------------------------------------------- */
 @media only screen and (max-width: 600px) {
-  /* line 32, ../sass/email.scss */
+  /* line 33, ../sass/email.scss */
   *[class="mobile-hide"] {
     display: none !important;
   }
 
-  /* line 35, ../sass/email.scss */
+  /* line 36, ../sass/email.scss */
   *[class="mobile-stack"] {
     display: block !important;
   }
 
-  /* line 38, ../sass/email.scss */
+  /* line 39, ../sass/email.scss */
   *[class="mob-column"] {
     float: none !important;
     width: 100% !important;

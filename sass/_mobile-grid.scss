@@ -71,3 +71,18 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
       display:none;
     }
 }
+*[class="mobile-spacer"] {
+    width: $spacer;
+    @media only screen and (max-width: 600px) {
+      height: $mobile-bottom-spacing;
+    }
+}
+*[class="container-mob"] {
+  width:100%;
+  @media only screen and (max-width: 600px) {
+    width:100% !important;
+    height:auto;
+    margin-bottom: $mobile-bottom-spacing;
+  }
+
+}
