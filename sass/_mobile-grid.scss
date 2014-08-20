@@ -8,7 +8,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
 
 
 @media only screen and (max-width: 600px) {
-  .full-container {
+  *[class="full-container"] {
     @if $mobile-padding == yes {
       padding:10px;
     } @else {
@@ -17,7 +17,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
   }
 }
 
-.full-width {
+*[class="full-width"] {
   width: 100%;
   @media only screen and (max-width: 600px) {
     width:100% !important;
@@ -25,7 +25,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
   }
 }
 
-.full-width-container {
+*[class="full-width-container"] {
   width: $email-width;
   @media only screen and (max-width: 600px) {
     width:100% !important;
@@ -33,7 +33,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
   }
 }
 
-.width-half {
+*[class="width-half"] {
     width: $half-width-column;
     @media only screen and (max-width: 600px) {
       width:100% !important;
@@ -41,7 +41,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
     }
 }
 
-.width-third {
+*[class="width-third"] {
     width: $third-width-column;
     @media only screen and (max-width: 600px) {
       width:100% !important;
@@ -49,7 +49,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
     }
 }
 
-.width-two-thirds {
+*[class="width-two-thirds"] {
     width: $third-width-column * 2;
     @media only screen and (max-width: 600px) {
       width:100% !important;
@@ -57,7 +57,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
     }
 }
 
-.width-quarter {
+*[class="width-quarter"] {
     width: $quarter-width-column;
     @media only screen and (max-width: 600px) {
       width:100% !important;
@@ -65,7 +65,7 @@ $quarter-width-column: ($email-width - $spacer * 5)/4;
     }
 }
 
-.spacer {
+*[class="spacer"] {
     width: $spacer;
     @media only screen and (max-width: 600px) {
       display:none;

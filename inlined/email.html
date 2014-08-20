@@ -12,32 +12,29 @@
  
 <body bgcolor="#FFFFFF" style="background: white; margin: 0; padding: 0"><style type="text/css">
 @media only screen and (max-width: 600px) {
-  .full-container {
+  *[class="full-container"] {
     padding: 10px;
   }
-  .full-width {
+  *[class="full-width"] {
     width: 100% !important; height: auto;
   }
-  .full-width-container {
+  *[class="full-width-container"] {
     width: 100% !important; height: auto;
   }
-  .width-half {
+  *[class="width-half"] {
     width: 100% !important; height: auto;
   }
-  .width-third {
+  *[class="width-third"] {
     width: 100% !important; height: auto;
   }
-  .width-two-thirds {
+  *[class="width-two-thirds"] {
     width: 100% !important; height: auto;
   }
-  .width-quarter {
+  *[class="width-quarter"] {
     width: 100% !important; height: auto;
   }
-  .spacer {
+  *[class="spacer"] {
     display: none;
-  }
-  .btn {
-    width: 100% !important; text-align: center;
   }
   *[class="mobile-hide"] {
     display: none !important;
@@ -67,233 +64,57 @@ background-color: white; margin: 0; padding: 0;
 			<!-- 640 pixel container for our content -->
 			<table width="640" cellpadding="0" cellspacing="0" border="0" class="full-width-container" style="width: 640px">
 				<tr>
-					<td class="mobile-hide spacer" style="border-collapse: collapse; width: 20px"></td>
+					<td class="mobile-hide spacer" style="border-collapse: collapse"></td>
 					<td style="border-collapse: collapse">
 
 
 						<!-- Content -->						
-						<table border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 100%">
+						<table border="0" cellspacing="0" cellpadding="20" class="full-width" bgcolor="#ff0000" style="width: 100%">
 			                <tr>
 			                    <td align="center" valign="top" style="border-collapse: collapse">
-			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack" style="width: 100%">
+			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack">
 			                            <tr>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-half" style="width: 290px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">		                                               
-			                                            	<h1 style="color: #000001; font-family: Georgia; font-size: 24px">Hello</h1>
-
-			                                               	<p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
-															<table class="btn style-1" cellpadding="10" cellspacing="0" border="0" style="background: white; border: 2px solid #cc0000" bgcolor="white">
-																<tr>
-																	<td class="btn" style="border-collapse: collapse">
-																		<a href="#" class="btn" style="color: #cc0000; font-family: Arial, sans-serif; text-decoration: none">Click here</a>
-																	</td>
-																</tr>
-															</table>
-			                                            </td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                <td class="mobile-hide spacer" style="border-collapse: collapse; width: 20px"></td>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-half" style="width: 290px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                                <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
-
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
-			                                            </td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
+			                            	<td style="border-collapse: collapse">Hello test</td>
 			                            </tr>
 			                        </table>
 			                    </td>
 			                </tr>
 			            </table>
 
+			            <!-- Two column -->
 
-			            <!-- Content -->						
-						<table border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 100%">
+			            <table border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 100%">
 			                <tr>
 			                    <td align="center" valign="top" style="border-collapse: collapse">
-			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack" style="width: 100%">
+			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack">
 			                            <tr>
 			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-two-thirds" style="width: 373.33333px">
+			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-half" bgcolor="#00ff00">
 			                                        <tr>
 			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                               <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
+			                                               <span class="heading" style="color: blue; font-family: Arial; font-size: 24px">Yo!</span>
 
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
+			                                               <br /><br />
 
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p><p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px"><a href="#">Hello&gt;&gt;</a>
-			                                            </p></td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                <td width="20" class="mobile-hide" style="border-collapse: collapse"></td>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-quarter" style="width: 135px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                                <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
+			                                               <span class="paragraph" style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
 
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
+Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</span>
 			                                            </td>
 			                                        </tr>
 			                                    </table>
 			                                </td>
-			                            </tr>
-			                        </table>
-			                    </td>
-			                </tr>
-			            </table>
-
-			            <!-- Content -->						
-						<table border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 100%">
-			                <tr>
-			                    <td align="center" valign="top" style="border-collapse: collapse">
-			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack" style="width: 100%">
-			                            <tr>
+			                                <td class="spacer" style="border-collapse: collapse; width: 20px"></td>
 			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-third" style="width: 186.66667px">
+			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-half">
 			                                        <tr>
 			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                               <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
+			                                            	<span class="heading" style="color: blue; font-family: Arial; font-size: 24px">Yo!</span>
 
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
+			                                            	<br /><br />
 
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p><p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px"><a href="#">Hello&gt;&gt;</a>
-			                                            </p></td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                <td width="20" class="mobile-hide" style="border-collapse: collapse"></td>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-third" style="width: 186.66667px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                                <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
+			                                            	<span class="paragraph" style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
 
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
-			                                            </td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                <td width="20" class="mobile-hide" style="border-collapse: collapse"></td>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-third" style="width: 186.66667px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                                <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
-
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
-			                                            </td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                            </tr>
-			                        </table>
-			                    </td>
-			                </tr>
-			            </table>
-
-			            <!-- Content -->						
-						<table border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 100%">
-			                <tr>
-			                    <td align="center" valign="top" style="border-collapse: collapse">
-			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack" style="width: 100%">
-			                            <tr>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column full-width" style="width: 100%">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                               <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
-
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p><p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px"><a href="#">Hello&gt;&gt;</a>
-			                                            </p></td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                
-			                            </tr>
-			                        </table>
-			                    </td>
-			                </tr>
-			            </table>
-
-
-			            <!-- Content -->						
-						<table border="0" cellspacing="0" cellpadding="0" class="full-width" style="width: 100%">
-			                <tr>
-			                    <td align="center" valign="top" style="border-collapse: collapse">
-			                        <table border="0" cellpadding="0" cellspacing="0" class="full-width mobile-stack" style="width: 100%">
-			                            <tr>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-quarter" style="width: 135px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                               <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
-
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p><p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px"><a href="#">Hello&gt;&gt;</a>
-			                                            </p></td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                <td width="20" class="mobile-hide" style="border-collapse: collapse"></td>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-quarter" style="width: 135px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                                <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
-
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
-			                                            </td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                <td width="20" class="mobile-hide" style="border-collapse: collapse"></td>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-quarter" style="width: 135px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                                <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
-
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
-			                                            </td>
-			                                        </tr>
-			                                    </table>
-			                                </td>
-			                                <td width="20" class="mobile-hide" style="border-collapse: collapse"></td>
-			                                <td align="left" class="mobile-stack" valign="top" style="border-collapse: collapse">
-			                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="mob-column width-quarter" style="width: 135px">
-			                                        <tr>
-			                                            <td valign="top" align="center" style="border-collapse: collapse">
-			                                                <h1 style="color: #000001; font-family: Georgia; font-size: 24px">Yo!</h1>
-
-			                                               <p style="color: #666666; font-family: Arial, sans-serif; font-size: 16px">A python CSS inliner is provided for your templates: we choose to integrate premailer.
-
-Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</p>
+Prior to activate it, you need first to install python, and create a virtualenv for this tool (please check the virtualenvwrapper documentation). Then, install all python dependancies with:</span>
 			                                            </td>
 			                                        </tr>
 			                                    </table>
@@ -307,7 +128,7 @@ Prior to activate it, you need first to install python, and create a virtualenv 
 
 
 					</td>
-					<td class="mobile-hide spacer" style="border-collapse: collapse; width: 20px"></td>
+					<td class="mobile-hide spacer" style="border-collapse: collapse"></td>
 				</tr>
 			</table>
 

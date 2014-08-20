@@ -26,89 +26,89 @@ Grid stuff, don't touch!
 -------------------------------------------- */
 @media only screen and (max-width: 600px) {
   /* line 11, ../sass/_mobile-grid.scss */
-  .full-container {
+  *[class="full-container"] {
     padding: 10px;
   }
 }
 /* line 20, ../sass/_mobile-grid.scss */
-.full-width {
+*[class="full-width"] {
   width: 100%;
 }
 @media only screen and (max-width: 600px) {
   /* line 20, ../sass/_mobile-grid.scss */
-  .full-width {
+  *[class="full-width"] {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 28, ../sass/_mobile-grid.scss */
-.full-width-container {
+*[class="full-width-container"] {
   width: 640px;
 }
 @media only screen and (max-width: 600px) {
   /* line 28, ../sass/_mobile-grid.scss */
-  .full-width-container {
+  *[class="full-width-container"] {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 36, ../sass/_mobile-grid.scss */
-.width-half {
+*[class="width-half"] {
   width: 290px;
 }
 @media only screen and (max-width: 600px) {
   /* line 36, ../sass/_mobile-grid.scss */
-  .width-half {
+  *[class="width-half"] {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 44, ../sass/_mobile-grid.scss */
-.width-third {
+*[class="width-third"] {
   width: 186.66667px;
 }
 @media only screen and (max-width: 600px) {
   /* line 44, ../sass/_mobile-grid.scss */
-  .width-third {
+  *[class="width-third"] {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 52, ../sass/_mobile-grid.scss */
-.width-two-thirds {
+*[class="width-two-thirds"] {
   width: 373.33333px;
 }
 @media only screen and (max-width: 600px) {
   /* line 52, ../sass/_mobile-grid.scss */
-  .width-two-thirds {
+  *[class="width-two-thirds"] {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 60, ../sass/_mobile-grid.scss */
-.width-quarter {
+*[class="width-quarter"] {
   width: 135px;
 }
 @media only screen and (max-width: 600px) {
   /* line 60, ../sass/_mobile-grid.scss */
-  .width-quarter {
+  *[class="width-quarter"] {
     width: 100% !important;
     height: auto;
   }
 }
 
 /* line 68, ../sass/_mobile-grid.scss */
-.spacer {
+*[class="spacer"] {
   width: 20px;
 }
 @media only screen and (max-width: 600px) {
   /* line 68, ../sass/_mobile-grid.scss */
-  .spacer {
+  *[class="spacer"] {
     display: none;
   }
 }
@@ -151,17 +151,17 @@ table td {
 
 /* Our client fixes for hotmail, etc */
 /* line 1, ../sass/_Typography.scss */
-p {
+span[class="paragraph"] {
   font-size: 16px;
   font-family: Arial, sans-serif;
   color: #666666;
 }
 
 /* line 7, ../sass/_Typography.scss */
-h1 {
+span[class="heading"] {
   font-size: 24px;
-  font-family: Georgia;
-  color: #000001;
+  font-family: Arial;
+  color: blue;
 }
 
 /* Control all typography */
@@ -184,42 +184,20 @@ body {
 }
 
 /* -------------------------------------------
-Link buttons
--------------------------------------------- */
-@media only screen and (max-width: 600px) {
-  /* line 31, ../sass/email.scss */
-  .btn {
-    width: 100% !important;
-    text-align: center;
-  }
-}
-/* line 36, ../sass/email.scss */
-.btn.style-1 {
-  background-color: white;
-  border: 2px solid #cc0000;
-}
-/* line 39, ../sass/email.scss */
-.btn.style-1 a {
-  color: #cc0000;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-}
-
-/* -------------------------------------------
         Media Queries
 -------------------------------------------- */
 @media only screen and (max-width: 600px) {
-  /* line 52, ../sass/email.scss */
+  /* line 32, ../sass/email.scss */
   *[class="mobile-hide"] {
     display: none !important;
   }
 
-  /* line 55, ../sass/email.scss */
+  /* line 35, ../sass/email.scss */
   *[class="mobile-stack"] {
     display: block !important;
   }
 
-  /* line 58, ../sass/email.scss */
+  /* line 38, ../sass/email.scss */
   *[class="mob-column"] {
     float: none !important;
     width: 100% !important;

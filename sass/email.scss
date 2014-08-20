@@ -25,26 +25,6 @@ body {
 
 
 /* -------------------------------------------
-Link buttons
--------------------------------------------- */
-
-.btn {
-  @media only screen and (max-width: 600px) {
-    width:100% !important;
-    text-align: center;
-  }
-  &.style-1 {
-    background-color: $btn-1-bg-color;
-    border: $btn-1-border-weight solid $btn-1-border-color;
-    a {
-      color: $btn-1-link-color;
-      text-decoration: none;
-      font-family: $font-paragraph;
-    }
-  }
-}
-
-/* -------------------------------------------
         Media Queries
 -------------------------------------------- */
 
